@@ -1,0 +1,33 @@
+.logo {
+    width: 300px;
+  }
+  nav {
+    width: 100%;
+    height: 70px;
+    background-color: #2d2b2b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+    font-size: 18px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    width: 60px;
+    text-align: center;
+  }
+
+  .user-name {
+    width: 100%;
+    text-align: center;
+    margin-left: 60px;
+    color: #fff;
+  }
+
+  header {
+    margin-top: 60px;
+  }
