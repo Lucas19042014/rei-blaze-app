@@ -39,8 +39,8 @@ export default {
   data() {
     return {
       isLoading: false,
-      email: 'oreidodigital.org2@gmail.com',
-      password: 'Senha@123'
+      email: '',
+      password: ''
     }
   },
   components: {
