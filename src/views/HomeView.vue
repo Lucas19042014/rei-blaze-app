@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="input-numbers">
-        <input class="input-number" type="text" v-model="numberOne" :class="colorNumberOne" />
+        <input class="input-number" type="text" v-model="numberOne" :class="colorNumberOne" autofocus  />
         <input class="input-number" type="text" v-model="numberTwo" :class="colorNumberTwo"/>
         <input class="input-number" type="text" v-model="numberThree" :class="colorNumberThree" />
     </div>

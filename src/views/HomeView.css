@@ -9,21 +9,20 @@
 .input-number {
     width: 30%;
     font-size: 30px;
-    background-color: rgba(9, 8, 8, 0.997);
-    outline: none;
+    background-color: #a5a2a2;
+    border: 1px solid #a5a2a2;
+    outline: auto;
     padding: 10px;
     border-radius: 4px;
     color: #fff;
     border: none;
     box-sizing: border-box;
-    text-shadow: 1px 1px 1px rgb(16 16 16 / 30%);
-    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
-	transition: box-shadow .5s ease;
     text-align: center;
 }
 
 .bg-white {
     background-color: white !important;
+    color: #a5a2a2;
 }
 
 .bg-black {
@@ -36,7 +35,7 @@
 .color-result {
     height: 50px;
     max-width: 300px;
-    background-color: #69696995;
+    background-color: #8d8a8a;
     border-radius: 5px;
 }
 
@@ -44,8 +43,9 @@
     height: 50px;
     max-width: 300px;
     background-color: #fff;
+    border: 1px solid #8d8a8a;
     border-radius: 5px;
-    color: #000;
+    color: #8d8a8a;
     text-transform: uppercase;
     display: flex;
     direction: row;
@@ -57,5 +57,5 @@
     margin: 20px 0;
     text-align: center;
     font-size: 16px;
-    color: #fff
+    color: #4c4b4b
 }
