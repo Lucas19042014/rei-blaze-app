@@ -15,7 +15,7 @@
 </template>
 <script>
 export default {
-    name: 'LoginView',
+    name: 'HomeView',
     data() {
 		return {
 			numberOne: '',
