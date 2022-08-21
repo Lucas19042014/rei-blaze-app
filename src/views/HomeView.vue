@@ -66,7 +66,7 @@ export default {
     },
     methods: {
         chooseColor(number) {
-            if(isNaN(number)) {
+            if(isNaN(parseInt(number))) {
                 return;
             }
             switch(number) {
