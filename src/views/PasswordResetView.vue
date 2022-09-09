@@ -7,7 +7,7 @@
     <div class="form-login">
       <loading v-model:active="isLoading" />
       <h3>Precisamos agora atualizar sua senha!</h3>
-      <h4> Ela precisa ter no mínio 8 caracteres</h4>
+      <h4> Ela precisa ter no mínimo 8 caracteres</h4>
 
       <br>
 
