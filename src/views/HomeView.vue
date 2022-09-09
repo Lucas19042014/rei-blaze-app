@@ -81,7 +81,7 @@ export default {
                 case '7':
                     return 'bg-red';
                 default:
-                    return 'bg-black'
+                    return 'bg-black';
             }
         },
         moduleNumbers() {
