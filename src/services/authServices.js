@@ -32,7 +32,25 @@ const me = async () => {
     }
 }
 
+const resetPass = async (password, confirm_password) => {
+    try {
+        const sessionKey = Cookies.get('session_key');
+
+        const api = createApi();
+        const response = await api.post('users/reset_password', { password, confirm_password }, {
+            headers: {
+                Authorization: `Bearer ${sessionKey}`
+            }
+        });
+
+        return response.data;
+    } catch (error) {
+       throw error;
+    }
+}
+
 export default {
     login,
-    me
+    me,
+    resetPass
 }

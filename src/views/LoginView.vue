@@ -54,7 +54,11 @@ export default {
         
         Cookies.set('session_key', authData.token, { expires: new Date(authData.expireAt) });
 
-        setTimeout(() => this.$router.push('/'), 3000);
+        if (authData.user.firstaccess)
+          setTimeout(() => this.$router.push('/password/reset'), 1000);
+        else
+          setTimeout(() => this.$router.push('/'), 3000);
+        
       } catch (error) {
         this.isLoading = false;
         toast.error(`E-mail ou senha inválidos`, {
